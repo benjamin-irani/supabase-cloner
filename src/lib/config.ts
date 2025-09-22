@@ -14,7 +14,7 @@ export const config = {
 
   // Authentication Configuration
   auth: {
-    nextAuthUrl: process.env.NEXTAUTH_URL || 'https://supamaster.eywa365.net',
+    nextAuthUrl: process.env.NEXTAUTH_URL || 'https://supabase-cloner-m1tn6f79v-eywa-systems.vercel.app',
     nextAuthSecret: process.env.NEXTAUTH_SECRET || 'demo-nextauth-secret-for-development',
     supabaseOAuthClientId: process.env.SUPABASE_OAUTH_CLIENT_ID || 'f3a31eb1-cece-4480-81d6-71e78af49488',
     supabaseOAuthClientSecret: process.env.SUPABASE_OAUTH_CLIENT_SECRET || 'sba_585ffafba5b606a3dbe8094c30814b9dd4653a82',

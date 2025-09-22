@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "NEXTAUTH_URL": "https://supamaster.eywa365.net"
+    "NEXTAUTH_URL": "https://supabase-cloner-m1tn6f79v-eywa-systems.vercel.app"
   },
   "headers": [
     {
