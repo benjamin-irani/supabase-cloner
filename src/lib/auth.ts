@@ -15,8 +15,8 @@ const SupabaseManagementProvider = {
   authorization: {
     url: 'https://api.supabase.com/v1/oauth/authorize',
     params: {
-      scope: 'read write',
       response_type: 'code',
+      code_challenge_method: 'S256',
     },
   },
   token: {
